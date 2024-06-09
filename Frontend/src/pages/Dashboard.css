@@ -1,0 +1,93 @@
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full height of the viewport */
+  background-image: url("./HomeDesigner.png"); /* Background image path */
+  background-size: cover;
+  color: #50586c; /* Text color */
+}
+
+.title {
+  margin-bottom: 40px; /* Increased gap between title and buttons */
+  font-size: 36px; /* Title font size */
+  font-weight: bold; /* Title font weight */
+  color: #50586c; /* Title text color */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  font-size: 20px;
+}
+
+.dashboard-button {
+  width: 300px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+    to bottom,
+    rgb(227, 213, 255),
+    rgb(255, 231, 231)
+  );
+  border-radius: 30px;
+  overflow: hidden;
+  cursor: pointer;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.075);
+  text-decoration: none; /* Remove underline from links */
+  color: rgb(19, 19, 19); /* Button text color */
+  font-size: 20px; /* Button text size */
+  font-weight: bold; /* Button text weight */
+  transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+.dashboard-button:hover {
+  background: linear-gradient(
+    to bottom,
+    rgb(207, 193, 235),
+    rgb(235, 211, 211)
+  );
+}
+
+.btn {
+  padding: 15px 20px; /* Adjust padding for better button appearance */
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  position: relative;
+  font-size: 20px;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  color: #dce2f0;
+  background-color: #50586c;
+}

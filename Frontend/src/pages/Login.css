@@ -1,0 +1,100 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-image: url("./HomeDesigner.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px; /* Increased gap between elements */
+  padding: 30px; /* Increased padding */
+  border: 5px solid #000;
+  border-radius: 12px;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.8
+  ); /* Semi-transparent white background */
+}
+
+.title {
+  margin-bottom: 30px; /* Increased gap between title and form */
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Increased gap between form groups */
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-container {
+  width: 210px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  background: linear-gradient(
+    to bottom,
+    rgb(227, 213, 255),
+    rgb(255, 231, 231)
+  );
+  border-radius: 30px;
+  overflow: hidden;
+  cursor: pointer;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.075);
+}
+
+.input {
+  width: 200px;
+  height: 40px;
+  border: none;
+  outline: none;
+  caret-color: rgb(255, 81, 0);
+  background-color: rgb(11 5 5);
+  border-radius: 30px;
+  padding-left: 15px;
+  letter-spacing: 0.8px;
+  color: rgb(19, 19, 19);
+  font-size: 13.4px;
+}
+
+.btn {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: #007bff;
+  color: black;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+  color:black;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 600px;
+  height: 20px;
+  text-align: center;
+  color: #000000;
+  background-color: #50586c;
+}

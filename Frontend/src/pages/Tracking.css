@@ -1,0 +1,68 @@
+.tracking {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("./RegisterDesigner.png"); /* Background image path */
+  background-size: cover;
+  color: #50586c; /* Text color */
+}
+
+.title {
+  margin-bottom: 40px; /* Increased gap between title and incident-container */
+  font-size: 36px; /* Title font size */
+  font-weight: bold; /* Title font weight */
+  color: #50586c; /* Title text color */
+}
+
+.incident-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 20px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.incident {
+  flex: 1; /* Grow to fill available space */
+  padding: 20px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.previous-reports {
+  flex: 1; /* Grow to fill available space */
+  padding: 20px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.previous-report {
+  margin-bottom: 10px; /* Increased gap between previous reports */
+}
+
+.date {
+  font-style: italic;
+}
+
+.back-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  background-color: #50586c;
+  color: #dce2f0;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.back-button:hover {
+  background-color: #404854;
+}

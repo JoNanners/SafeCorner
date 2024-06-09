@@ -1,0 +1,78 @@
+/* Notifications.css */
+
+.tracking-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* background-color: blue; */
+  align-items: center;
+  height: 100vh; /* Full height of the viewport */
+  background-image: url("./LoginDesigner.png"); /* Background image path*/
+  background-size: cover;
+  color: #50586c; /* Text color */
+}
+
+.tracking-title {
+  font-size: 36px; /* Title font size */
+  font-weight: bold; /* Title font weight */
+  color: #50586c; /* Title text color */
+  margin-bottom: 40px; /* Increased gap between title and buttons */
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.8
+  ); /* Background color with transparency */
+}
+
+.tracking-table-container {
+  width: 70%;
+}
+
+.tracking-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tracking-table th,
+.tracking-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.tracking-table th {
+  background-color: #f2f2f2;
+}
+
+.tracking-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.joshua {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  font-size: 20px;
+}
+.back-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  background-color: #50586c;
+  color: #dce2f0;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  color: #dce2f0;
+  background-color: #50586c;
+}
